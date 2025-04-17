@@ -1,6 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import NailServiceList from "@/components/NailServiceList";
-import { Nail } from "lucide-react";
+import { Scissors } from "lucide-react";
 
 export default function ServiceInfoCard() {
   return (
@@ -16,7 +16,7 @@ export default function ServiceInfoCard() {
       <Card>
         <CardHeader>
           <CardTitle className="flex items-center gap-2">
-            <Nail className="h-5 w-5" />
+            <Scissors className="h-5 w-5" />
             <span>Наши услуги</span>
           </CardTitle>
           <CardDescription>
